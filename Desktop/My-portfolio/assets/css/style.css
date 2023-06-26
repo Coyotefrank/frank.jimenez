@@ -1,0 +1,112 @@
+.header{
+    color:black;
+    /* padding-bottom: 52px; */
+    background-color: white;
+    display:flex;
+    justify-content: space-between;
+    margin:0;
+    padding:0;
+
+}
+
+header h1{
+    background-color: teal;
+    width:30%;
+    font-size: 3rem;
+    letter-spacing: 2px;
+}
+header nav{
+    width: 40%;
+}
+nav ul{
+    width: 100%;
+    list-style:none;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.5rem;
+}
+body{
+    color: black;
+    background-color: brown;
+    text-align:top;
+    margin:0;
+    padding: 0;
+}
+
+ figure{
+    background-image: url(./photo-1516653980844-c68df1de5249.avif);
+    width:100vw;
+    height:30vh;
+    background-repeat: repeat;
+    background-position: center;
+    margin:0;
+    padding: 0;
+  
+} 
+
+/* figure{
+    width: 100%;
+    margin:0;
+    padding:0
+}
+
+figure img{
+    width:100%;
+    height:30%;
+} */
+
+main{
+    margin: 1%;
+    padding:1%;
+}
+
+.row{
+    clear:both;
+    display: flex;
+    gap:1%;
+    justify-content: space-evenly;
+    margin:1%;
+    padding:1%;
+}
+
+.side-title{
+    width: 20%;
+    border-right:5px solid white;
+    text-align: right;
+    color:white;
+    font-size: 1.5rem;
+}
+
+.side-title h2{
+    padding-right:3%;
+}
+
+.row-content{
+    width: 70%;
+}
+
+.row-content img{
+    float:left;
+    width:400px;
+    height:400px;
+}
+
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project-work{
+    width:45%;
+   
+    margin:1%;
+    border:3px solid black;
+}
+
+.project-work a img{
+    width:100%;
+}
+
+#feature{
+    width:95%;
+}
